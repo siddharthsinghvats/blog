@@ -1,0 +1,217 @@
+html{
+    margin :0;
+    padding:0 10% 0;
+}
+body{
+    font-size: 1.3rem;
+    background-color: #d0ffa3;
+}
+/* .img-grid{
+    display: grid;
+    width:50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:auto auto ;
+    gap:15px;
+        
+} */
+
+h2{
+    padding:2% 0;
+    padding-left: 1%;
+    /* box-shadow: 0 3px pink; */
+    border-bottom: 3px solid #F56D91;
+    width:70%;
+    color: #cb49f3;
+    margin-top: 10%;
+}
+
+
+img{
+    margin:2%;
+ }
+@media screen and (max-width:480px){
+    .btns{
+        display: block;    
+    }
+    
+}
+@media screen and (max-width:480px){
+    
+h2{
+    padding:2% 0;
+    padding-left: 1%;
+    margin-top: 20%;
+    /* box-shadow: 0 3px pink; */
+    border-bottom: 3px solid #F56D91;
+    width:100%;
+    color: #733eee;
+}
+}
+/* img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20%;
+} */
+.carousel{
+    width:80%;
+    margin:10px auto;
+    background-color: rgba(245, 182, 66, 0.274);
+    
+}
+.w-10{
+    border-radius: 3%;
+    width:50%;
+    display: block;
+    margin: 10px auto;
+    
+}
+.carousel-item{
+    padding-right: 2%;
+}
+
+.profile{
+    width: 100%;
+    padding-left: 3%;
+  
+}
+ .profile>img{
+    border-radius: 5%;
+    object-fit: contain;
+    margin-left: 0;
+ }
+ li{
+     list-style-type: none;
+   
+ }
+ a{
+     text-decoration: none;
+ }
+ ul{
+     line-height: 2;
+ }
+ .navbar-nav{
+     margin-left: auto;
+ }
+ .navbar{
+     background-color: #03611ace;
+    
+ }
+ 
+
+ .navbar-dark .navbar-brand{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color:#a6fa75;
+ }
+ .btn{
+     margin: 20px;
+     padding:0.5%;
+     font-size: large;
+     background-color: aquamarine;
+ }
+ 
+ .about, .education{
+     margin:2%;
+     padding: 1% 0;
+ }
+ .code{
+    margin:2%;
+    padding-bottom: 4%;
+ }
+ .myimage{
+     margin:2%;
+ }
+ .poems{
+    margin:3%;
+ }
+ h3{
+     margin:2% 2%;
+     color:#7f1ffd;
+     
+ }
+
+ .carousel-control-prev{
+     background-color:#79f161a6;
+    
+ }
+ .carousel-control-next{
+    background-color:  #79f161a6;
+
+}
+.btns{
+    width:18%;
+    padding:1% 2%;
+    margin:0 20px;
+    background-color: rgba(16, 243, 167, 0.5);
+    border-radius: 20px;
+    box-shadow:3px 3px rgb(107, 109, 238);
+}
+.btns:hover{
+    font-weight: bold;
+    padding:1%;
+    background-color: rgb(78, 207, 4);
+    transform: translate(4px,-4px);
+    color: #fafaf8;
+    box-shadow:3px 3px green;
+    border-color: rgb(5, 248, 45);
+}
+@media screen and (max-width:480px){
+    .btns{
+        width:60%;
+        padding:1% 2%;
+        margin:10px 20px;
+        background-color: rgba(23, 248, 218, 0.774);
+        border-radius: 20px;
+        box-shadow:3px 3px rgb(107, 109, 238);
+    } 
+}
+@media screen and (max-width:480px){
+    .navbar{
+    
+        background-color: rgba(5, 136, 92, 0.979);
+       
+    } 
+}
+p{
+    margin-top: 4%;;
+}
+.poemlink{
+    font-size: 1.2em;
+    color: #912605;
+}
+.poemlink:hover{
+    color: #e24617;
+    font-weight: bold;
+}
+
+.college:hover{
+    color:#e24617;
+}
+.footer{
+    position: static;
+    padding: 3%;    
+    text-align: center;
+    margin-top:5%;
+    background-color: #69f8d4;
+    color:#7f1ffd;
+}
+i{
+    margin:5% 3% 0 3%;
+
+}
+i:hover{
+    color:#e24617;
+}
+@media screen and (max-width:480px){
+    .footer{
+    
+        position: static;
+        padding: 1%;    
+        text-align: center;
+        margin-top:2%;
+        background-color: #69f8d4;
+        color:#7f1ffd;
+       
+    } 
+}
